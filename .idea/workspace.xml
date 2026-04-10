@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e9ee7cf-f6e5-429a-abb6-ec4a7d3f656d" name="Changes" comment="" />
+    <list default="true" id="7e9ee7cf-f6e5-429a-abb6-ec4a7d3f656d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django-Polls/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django-Polls/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django-Polls/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django-Polls/polls/models.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

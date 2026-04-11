@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e9ee7cf-f6e5-429a-abb6-ec4a7d3f656d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Django-Polls/polls/templates/polls/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django-Polls/polls/templates/polls/index.html" afterDir="false" />
+    <list default="true" id="7e9ee7cf-f6e5-429a-abb6-ec4a7d3f656d" name="Changes" comment="&quot;new commits&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django-Polls/polls/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django-Polls/polls/templates/polls/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django-Polls/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django-Polls/polls/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django-Polls/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django-Polls/polls/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "orignlkartik1"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/orignlkartik1/Django-Polls&quot;,
+    &quot;accountId&quot;: &quot;659cbf00-80d4-47f5-97ea-3a0b9e0786f2&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -60,6 +72,20 @@
       <option name="presentableId" value="Default" />
       <updated>1775755291446</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;new commits&quot;">
+      <option name="closed" value="true" />
+      <created>1775850320855</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775850320855</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new changes" />
+    <MESSAGE value="&quot;new commits&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;new commits&quot;" />
   </component>
 </project>

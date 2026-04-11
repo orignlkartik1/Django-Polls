@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse as ht, Http404
 from django.template import loader
 from .models import Question,Vote
+from django.shortcuts import get_object_or_404, render
 
 from django.db.models import F
 from django.http import HttpResponseRedirect
@@ -57,7 +58,7 @@ def vote(request, question_id):
         # user hits the Back button.
         return HttpResponseRedirect(reverse("polls:results", args=(question.id,)))
 
-from django.shortcuts import get_object_or_404, render
+
 
 
 def results(request, question_id):

@@ -51,7 +51,7 @@ def vote(request, question_id):
             },
         )
     else:
-        selected_choice.vote = F("vote") + 1
+        selected_choice.vote = F("vote") + 1  # Keep as is IF you keep model field as "vote"
         selected_choice.save()
         # Always return an HttpResponseRedirect after successfully dealing
         # with POST data. This prevents data from being posted twice if a

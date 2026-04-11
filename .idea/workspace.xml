@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e9ee7cf-f6e5-429a-abb6-ec4a7d3f656d" name="Changes" comment="&quot;new commits&quot;">
-      <change afterPath="$PROJECT_DIR$/Django-Polls/polls/templates/polls/results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-Polls/polls/templates/polls/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/Django-Polls/polls/templates/polls/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django-Polls/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django-Polls/polls/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django-Polls/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django-Polls/polls/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

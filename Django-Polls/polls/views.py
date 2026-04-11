@@ -21,7 +21,7 @@ class IndexView(generic.ListView):
 
     def get_queryset(self):
         """Return the last five published questions."""
-        return Question.objects.order_by("-pub_date")[:5]
+        return Question.objects.order_by("-put_date")[:5]
 
 
 class DetailView(generic.DetailView):
@@ -38,7 +38,7 @@ class ResultsView(generic.DetailView):
 def vote(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
     try:
-        selected_choice = question.choice.get(pk=request.POST["choice"])
+        selected_choice = question.choices.get(pk=request.POST["choice"])
     except (KeyError, Vote.DoesNotExist):
         # Redisplay the question voting form.
         return render(
@@ -50,7 +50,7 @@ def vote(request, question_id):
             },
         )
     else:
-        selected_choice.votes = F("votes") + 1
+        selected_choice.vote = F("vote") + 1
         selected_choice.save()
         # Always return an HttpResponseRedirect after successfully dealing
         # with POST data. This prevents data from being posted twice if a
